@@ -7,7 +7,7 @@ This repository is the first phase of a comprehensive data analytics project lev
 1. **Clean datasets**: Prepare and clean raw data in Excel.
 2. **Database schema creation**: Design the database structure in MySQL.
 3. **Data import**: Load the cleaned datasets into MySQL.
-4. **Normalization**: Normalize tables to eliminate redundancy and establish relationships.
+4. **Normalization**: Normalize tables( up to 3 NF) to eliminate redundancy and establish relationships.
 5. **ERD creation**: Generate an Entity-Relationship Diagram (ERD) to visualize the database structure.
 
 ## Project Deliverables
@@ -26,12 +26,18 @@ This repository is the first phase of a comprehensive data analytics project lev
 
 2. **Kiva MPI Region Location**
    - Contains regional information, geographic coordinates, and Multidimensional Poverty Index (MPI) data.
+   - Rows: 2772
+   - Columns: 9
 
 3. **Loan Theme IDs**
    - Metadata about loan themes and their types.
+   - Rows: 779,093
+   - Columns: 4
 
 4. **Loan Themes by Region**
    - Provides details about loan themes categorized by regions.
+   - Rows: 15,736
+   - COlumns:21
 
 
 ## Tools Used
