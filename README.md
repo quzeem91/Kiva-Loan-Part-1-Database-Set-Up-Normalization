@@ -12,8 +12,7 @@ This repository is the first phase of a comprehensive data analytics project lev
 
 ## Project Deliverables
 - **SQL Scripts**:
-  - `create_schema.sql`: Defines the database schema.
-  - `create_tables.sql`: Creates skeleton tables for all datasets.
+  - `create_schema.sql`: Defines the database schema and creates Skeleton tables for all datasets.
   - `data_import.sql`: Imports cleaned data into the database.
   - `normalization.sql`: Normalizes tables and establishes relationships.
 - **ERD Diagram**: A diagram illustrating the relationships between tables.
@@ -35,7 +34,7 @@ This repository is the first phase of a comprehensive data analytics project lev
    - Columns: 4
 
 4. **Loan Themes by Region**
-   - Provides details about loan themes categorized by regions.
+   - Provides details about loan themes categorized by region.
    - Rows: 15,736
    - COlumns:21
 
@@ -52,15 +51,13 @@ This repository is the first phase of a comprehensive data analytics project lev
 4. Save the cleaned files in the `datasets` directory.
 
 ### Step 2: Create the Database Schema
-1. Run the `create_schema.sql` script in MySQL Workbench to create the database.
+1. Run the `create_schema.sql` script in MySQL Workbench to create the database and skeleton tables for the datasets.
 
-### Step 3: Create Tables
-1. Run the `create_tables.sql` script to define skeleton tables for the datasets.
 
-### Step 4: Import Data
+### Step 3: Import Data
 1. Execute the `data_import.sql` script to load data into the tables.
 
-### Step 5: Normalize Tables
+### Step 4: Normalize Tables
 1. Execute the `normalization.sql` script to normalize the tables and define relationships.
 
 ### Step 6: Generate ERD
