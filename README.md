@@ -36,7 +36,9 @@ This repository is the first phase of a comprehensive data analytics project lev
 4. **Loan Themes by Region**
    - Provides details about loan themes categorized by region.
    - Rows: 15,736
-   - COlumns:21
+   - Columns:21
+
+     [Data Description](https://www.kaggle.com/datasets/kiva/data-science-for-good-kiva-crowdfunding/discussion/50585)
 
 
 ## Tools Used
@@ -49,6 +51,8 @@ This repository is the first phase of a comprehensive data analytics project lev
 2. Standardize column names, data formats, and values.
 3. Replace missing values and perform data validation.
 4. Save the cleaned files in the `datasets` directory.
+
+[Data Cleaning Guide](https://docs.google.com/document/d/1y62B00UQGHPAPTWj97wmnqRV6iCbU5CdjMweo4xGkok/edit?usp=sharing)
 
 ### Step 2: Create the Database Schema
 1. Run the `create_schema.sql` script in MySQL Workbench to create the database and skeleton tables for the datasets.
