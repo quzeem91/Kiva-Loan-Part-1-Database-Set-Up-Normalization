@@ -60,6 +60,8 @@ This repository is the first phase of a comprehensive data analytics project lev
 
 ### Step 3: Import Data
 1. Execute the `data_import.sql` script to load data into the tables.
+   
+   Check this guide on how to import large data into MySQL with no data lost or compromised: [Here](https://medium.com/@olamidequzeem91/import-600k-excel-rows-to-mysql-no-data-compromised-in-under-a-minute-with-zero-data-loss-12bf32cc2540) 
 
 ### Step 4: Normalize Tables
 1. Execute the `normalization.sql` script to normalize the tables and define relationships.
